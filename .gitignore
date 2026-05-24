@@ -1,0 +1,73 @@
+# --- Environment & secrets ---
+.env
+.env.*
+!.env.example
+!.env.*.example
+
+# --- Python ---
+.venv/
+venv/
+venvpython/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg
+*.egg-info/
+.eggs/
+dist/
+build/
+pip-wheel-metadata/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.tox/
+.hypothesis/
+
+# --- Local databases (dev SQLite) ---
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+
+# --- Node / frontend ---
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# React Router / Vite builds
+.react-router/
+frontend/build/
+frontend/.react-router/
+frontend_normal_react/shipper/dist/
+frontend_normal_react/shipper/node_modules/
+
+# --- OS ---
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# --- Editors (keep shared settings; ignore local overrides) ---
+.idea/
+*.swp
+*.swo
+*~
+
+# --- Logs & temp ---
+*.log
+logs/
+tmp/
+temp/
+.cache/
+
+# --- Docker / compose overrides (optional local) ---
+docker-compose.override.yml
+
+# --- Alembic (optional local overrides) ---
+# migrations/versions/*.pyc is covered by __pycache__

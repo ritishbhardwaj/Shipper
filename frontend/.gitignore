@@ -1,0 +1,8 @@
+# Covered by root .gitignore; kept for tools that only read this folder
+.DS_Store
+.env
+.env.*
+!.env.example
+node_modules/
+.react-router/
+/build/

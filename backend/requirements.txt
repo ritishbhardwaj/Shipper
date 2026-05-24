@@ -1,0 +1,18 @@
+fastapi
+uvicorn
+sqlalchemy
+bcrypt>=4.0.1,<5
+python-jose
+python-multipart
+fastapi-limiter
+sqlmodel
+pydantic-settings
+pyjwt
+# redis[hiredis]  # removed — JWT blacklist uses SQLite
+pydantic[email]
+email-validator
+aiosqlite
+alembic
+scalar   #optional
+fastapi-mail
+scalar_fastapi
