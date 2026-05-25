@@ -16,3 +16,4 @@ alembic
 scalar   #optional
 fastapi-mail
 scalar_fastapi
+passlib
