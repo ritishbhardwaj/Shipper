@@ -5,3 +5,16 @@ __pycache__
 *.db
 *.sqlite3
 node_modules
+backend/.venv
+.venv
+venv
+dist
+build
+\.git
+venvpython
+__pycache__
+*.pyc
+.env
+*.db
+*.sqlite3
+node_modules
