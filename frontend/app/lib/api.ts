@@ -1,6 +1,6 @@
 /** Backend URL — use /api only if a dev proxy is configured; default is direct to FastAPI. */
 const API_BASE =
-  import.meta.env.VITE_API_URL ?? "http://127.0.0.1:8001";
+  "https://shipper-f9kc.onrender.com" ?? "http://127.0.0.1:8001";
 
 export type UserRole = "seller" | "partner";
 
