@@ -1,6 +1,7 @@
 from contextlib import asynccontextmanager
 
 from fastapi import FastAPI
+from fastapi.responses import HTMLResponse
 from fastapi.middleware.cors import CORSMiddleware
 from scalar_fastapi import get_scalar_api_reference
 
@@ -37,4 +38,4 @@ def get_scalar_docs():
 
 @app.get("/health")
 async def health():
-    return "<h1> Shipper is healthy </h1>"
+    return HTMLResponse(content="<h1>Shipper is healthy</h1>", status_code=200)
