@@ -37,4 +37,4 @@ def get_scalar_docs():
 
 @app.get("/health")
 async def health():
-    return {"status": "ok"}
+    return "<h1> Shipper is healthy </h1>"
