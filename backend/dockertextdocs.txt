@@ -1,0 +1,1 @@
+We are using ENV PYTHONUNBUFFERED=1 so that anything printed by the Python application appears immediately in the Docker container logs, instead of being delayed. This makes it easier to track what the application is doing and quickly identify issues.
